@@ -12,7 +12,7 @@ app = FastAPI(
 )
 
 # تفعيل CORS
-origins = ["https://admagh.vercel.app"]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
